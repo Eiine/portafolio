@@ -1,0 +1,109 @@
+body{
+    background-color: #000000;
+}
+.header{
+    background-color:  #133954;
+    border: #468902 2px solid;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.estudios{
+    background-color: #628290;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.skills{
+    background-color: #628290;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.proyectos{
+    background-color: #628290;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    background-color:  #133954;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para imagenes de skills*/
+
+img.html{
+    border-radius: 10%;
+    height: 100px;
+}
+
+img.css{
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+img.js{
+    border-radius: 10%;
+    height: 100px;
+}
+
+img.nodejs{
+    border-radius: 10%;
+    height: 100px;
+}
+
+img.express{
+    border-radius: 10%;
+    height: 100px;
+}
+
+img.mysql{
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+img.sequelize{
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+.estudio{
+    color: white;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    word-break:break-all;
+}
+.skill{
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .skills{
+        display: flex;
+    justify-content: space-around;
+    word-break:break-all;
+    }
+    
+  }
+
+
+
+
