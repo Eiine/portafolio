@@ -32,6 +32,7 @@ body{
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .footer{
@@ -93,6 +94,12 @@ img.sequelize{
 .skill{
     color: white;
     text-align: center;
+}
+
+.pro{
+    height: 150px;
+    border-radius: 25px;
+    
 }
 
 @media (max-width: 600px) {
