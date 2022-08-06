@@ -17,13 +17,18 @@ body{
     padding: 5px;
     margin-bottom: 15px;
 }
-
+section{
+    color: white;
+    text-align: center;
+}
 .skills{
+    
     background-color: #628290;
     color: white;
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 15px;
+    
 }
 
 .proyectos{
@@ -34,6 +39,8 @@ body{
     margin-bottom: 15px;
     text-align: center;
 }
+
+
 
 .footer{
     background-color:  #133954;
@@ -102,6 +109,21 @@ img.sequelize{
     
 }
 
+footer{
+    text-align: center;
+}
+
+.icono{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    
+}
+.icono img{
+
+    height: 80px;
+    border-radius: 25%;
+}
 @media (max-width: 600px) {
     .skills{
         display: flex;
