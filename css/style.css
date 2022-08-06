@@ -141,7 +141,6 @@ footer{
 
 .boton{
     margin-top: 20px;
-    text-decoration: none;
     background-color: white;
     color: black;
     border-radius: 10px;
@@ -149,6 +148,15 @@ footer{
     width: 150px;
 
     
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+
+.boton:hover{
+    background-color: dodgerblue;
+    color: white;
 }
 @media (max-width: 600px) {
     .skills{
