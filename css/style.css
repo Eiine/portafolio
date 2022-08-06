@@ -1,53 +1,67 @@
 body{
-    background-color: #000000;
+   
+    background-image: url("/img/fondo.jpg");
+    background-repeat: no-repeat;
 }
 .header{
-    background-color:  #133954;
-    border: #468902 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #006691;
+    border: black 3px solid;
     color: white;
     text-align: center;
     border-radius: 25px;
     margin-bottom: 15px;
+    box-shadow: 15px 8px 16px black;
+    height: 250px;
 }
 
 .estudios{
-    background-color: #628290;
+    background-color: #006691;
+    border: black 3px solid;
     color: white;
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 15px;
+    box-shadow: 15px 8px 16px black;
 }
 section{
     color: white;
     text-align: center;
 }
 .skills{
-    
-    background-color: #628290;
+    border: black 3px solid;
+    background-color: #006691;
     color: white;
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 15px;
+    box-shadow: 15px 8px 16px black;
     
 }
 
 .proyectos{
-    background-color: #628290;
+    background-color: #006691;
+    border: black 3px solid;
     color: white;
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 15px;
     text-align: center;
+    box-shadow: 15px 8px 16px black;
 }
 
 
 
 .footer{
-    background-color:  #133954;
+    background-color:  #006691;
+    border: black 3px solid;
     color: white;
     border-radius: 25px;
     padding: 5px;
     margin-bottom: 15px;
+    box-shadow: 15px 8px 16px black;
 }
 
 /* Estilos para imagenes de skills*/
@@ -123,6 +137,18 @@ footer{
 
     height: 80px;
     border-radius: 25%;
+}
+
+.boton{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+
+    
 }
 @media (max-width: 600px) {
     .skills{
