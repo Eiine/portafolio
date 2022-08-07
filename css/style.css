@@ -158,13 +158,27 @@ footer{
     background-color: dodgerblue;
     color: white;
 }
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .skills{
         display: flex;
     justify-content: space-around;
     word-break:break-all;
     }
     
+    .header{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    flex-direction: column;
+    background-color:  #006691;
+    border: black 3px solid;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow: 15px 8px 16px black;
+    height: 250px;
+}
   }
 
 
