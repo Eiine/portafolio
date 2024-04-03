@@ -1,99 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Protafolio Miguel Guerrero</title>
-  </head>
-  <body>
-    <header class="header" data-aos="zoom-in-down">
-      <h1>Hola mi nombre es Miguel Guerrero</h1>
-      <h3>
-        Soy un desarrollador js, actualmente me estoy especializando en
-        backend con nodejs y express js entre otras tecnologias, comenze a programar en el año 2019, soy
-        extrovertido y tengo facilidad para incorporar conocimientos, me gusta
-        trabajar en equipo y estoy dispuesto a aprender nuevos conocimientos.
-      </h3>
-      <div class="boton">
-        <a
-          href="https://drive.google.com/file/d/1YnLMe0iLVT_atmD_Rhq4s7ytA2sLOJlP/view?usp=sharing"
-          >Descargar mi cv</a
-        >
-      </div>
-    </header>
-
-    <section class="estudio">
-      <div class="estudios" data-aos="zoom-in-down">
-        <h1>Estudios</h1>
-        <h3>Desarrollo Web Full Stack con JavaScript (Edición) 2021- Udemy</h3>
-        <h3>Curso de python - de basico a intermedio-Eca Capasitaciones</h3>
-        <h3>Aceleración de Alkemy - Node.Js</h3>
-        <h3>Node de cero a experto-Udemy</h3>
-        <h3>Actualmente estudiando C# de forma autodidacta</h3>
-      </div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="extencion">
+        <aside class="lateral">
+          <img src="img/perfil.jpg" alt="" class="perfil">
+          <div>
+          <h3>Miguel Guerrero</h3>
+        </div>
+          <ul class="secciones">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#education">Educacion</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </aside>
+          </div>
+          <div class="contenido">
+    <section id="about" class="about">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Mi nombre es Miguel y soy un apasionado desarrollador JavaScript con un enfoque especial en el backend. Con más de 4 años de experiencia en el campo, he tenido el privilegio de trabajar en una variedad de proyectos desafiantes que han fortalecido mi comprensión de los principios fundamentales del desarrollo de software.</p>
     </section>
-    <section class="skills" data-aos="zoom-in-down">
-      <div>
-        <h1>Skills tecnicos</h1>
-        <img src="img/html.png" class="html" alt="" />
 
-        <img src="img/css.png" class="css" nalt="" />
-
-        <img src="img/js.png" class="js" alt="" />
-
-        <img src="img/nodejs.png" class="nodejs" alt="" />
-
-        <img src="img/express.jpg" class="express" alt="" />
-
-        <img src="img/mysql.png" class="mysql" alt="" />
-
-        <img src="img/sequelize.png" class="sequelize" alt="" />
-      </div>
+    <section id="portfolio" class="Portafolio">
+        <h2>Proyectos</h2>
+        <div class="proyectos">
+          <div class="item">
+            
+            <a href="https://github.com/Eiine/youtubeDownloader">
+              <img src="https://camo.githubusercontent.com/3e1e4a578635521f3cad532fefbda9e5e795d52918bfd03c49384665a3d53e15/68747470733a2f2f692e706f7374696d672e63632f71425866634234672f312e706e67" class="item-img" alt=""> 
+              </a>
+              
+              <a href="https://github.com/Eiine/spek-stud.git">
+                
+                <img src="https://media.licdn.com/dms/image/D4D22AQGBTMyHmVw36g/feedshare-shrink_800/0/1711074550254?e=1715212800&v=beta&t=NA0fWIFWqY36nNfz1K6z8gfPiblxr5DxfQx4TJcB9uY"class="item-img" alt="">
+              </a>
+              
+              <a href="https://www.npmjs.com/package/send-http-axios-doc">
+                
+                <img src="img/axios.PNG" class="item-img" alt="">
+              </a>
+              
+              <a href="https://estacionapp.vercel.app/">
+                
+                <img src="img/Estacion app.PNG" class="item-img" alt="">
+              </a>
+          </div>
+        </div>
     </section>
-    <section class="proyectos" data-aos="fade-up">
-      <h1>Proyectos</h1>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <img src="img/html.png" class="item-skills" alt="">
+      <img src="img/css.png" class="item-skills" alt="">
+      <img src="img/js.png" class="item-skills" alt="">
+      <img src="img/nodejs.png"  class="item-skills"alt="">
+      <img src="img/express.jpg" class="item-skills" alt="">
+      <img src="img/sequelize.png" class="item-skills" alt="">
+      <img src="img/mysql.png" class="item-skills" alt="">
+      <img src="img/mongodb.png" class="item-skills" alt="">
+  </section>
+    <section id="experience" class="experience">
+        <h2>Experiencia</h2>
+       <label for="">Youtube Download</label>
+        <p>Desarrollé este proyecto para crear un ejecutable en Windows que permita a los usuarios descargar 
+        videos de YouTube con la calidad deseada. Utilicé las librerías youtube-dl-exec y fluent-ffmpeg sobre 
+        Electron.js como práctica autodidacta en la manipulación de medios en línea.</p>
+          
+        <label for="">FileStorage</label>
+        <p>Creado para gestionar la subida y manipulación de archivos, especialmente imágenes y videos. Utiliza 
+          Express.js como framework principal y ofrece rutas para operaciones de carga y recuperación de 
+          archivos, así como tareas programadas de limpieza para mantener el sistema ordenado y eficiente.</p>
+          <label for="">Send-http-axios</label>
+          <p>Desarrollé esta herramienta web para realizar solicitudes HTTP utilizando diferentes métodos. Permite a 
+            los usuarios enviar peticiones a una URL específica con opciones avanzadas como el uso de tokens de 
+            autorización, envío de datos y carga de archivos.</p>
 
-      <div>
-        <a href="https://dashing-dragon-532eb4.netlify.app/"
-          ><img src="./img/screenshot.png" class="pro" alt=""
-        /></a>
-        <a href="https://www.npmjs.com/package/send-http-axios-doc"
-          ><img src="./img/ecomers.png" class="pro" alt=""
-        /></a>
-        
-        <a href="https://uso-fetch-api-rick-and-morty-d53945.netlify.app"
-          ><img src="./img/rick.png" class="pro" alt=""
-        /></a>
-      </div>
+          <label for="">Study Reader</label>
+          <p>En desarrollo, Lector es una aplicación diseñada para simplificar la conversión de texto en voz de manera
+            personalizable. Utilizando la tecnología Electron, se pretende que Lector sea una aplicación de escritorio 
+            multiplataforma que mejore la accesibilidad y la experiencia de usuario en la lectura de textos largos y 
+            complejos.</p>
+      </section>
+
+    <section id="education" class="education">
+        <h2>Educación</h2>
+        <!-- Detalles educativos -->
+        <p>Desarrollo Web: JavaScript, Node.js, Express.js</p>
+        <p>Manipulación de Archivos: Manejo de solicitudes HTTP, uso de API</p>
+        <p>Seguridad Informática: Conocimientos en seguridad, desarrollo de APIs RESTful</p>
+        <p>Bases de Datos: MongoDB, MySQL</p>
+        <p>Control de Versiones: Git/GitHub</p>
+        <p>Frontend: HTML, CSS</p>
     </section>
-    <footer class="footer" data-aos="fade-up">
-      <div>
-        <section>
-          <h1>Redes sociales</h1>
-          <a href="https://github.com/Eiine/" class="icono"
-            ><img src="img/git.png" alt="" />
-          </a>
-          <a
-            href="https://www.facebook.com/manuelmiguel.guerreropalma"
-            class="icono"
-            ><img src="img/face.png" alt=""
-          /></a>
-          <a
-            href="https://www.linkedin.com/in/miguel-guerrero-403939194/"
-            class="icono"
-            ><img src="img/linkedin.png" alt=""
-          /></a>
-        </section>
-      </div>
+
+    
+
+    <section id="contact" class="contact">
+       <h2>Contacto</h2>
+       <form onsubmit="send(event)" class="form">
+        <input type="text" name="name" placeholder="    Nombre:" class="input">
+        <input type="text" name="correo" placeholder="    Correo:" class="input">
+        <textarea type="text" name="message" placeholder="    Mensaje:" class="textarea"></textarea>
+        <button type="submit"  value="Enviar">Enviar</button>
+      </form>
+       
+    </section>
+  </div>
+  </div>
+    <footer>
+        <p>&copy; 2024 Mi Portafolio</p>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="js/main.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+</body>
 </html>

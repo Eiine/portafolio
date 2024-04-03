@@ -1,187 +1,155 @@
 body{
-   
-    background-image: url("/img/fondo.jpg");
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: #E4E9ED;
 }
-.header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color:  #006691;
-    border: black 3px solid;
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    box-shadow: 15px 8px 16px black;
-    height: 250px;
-}
-
-.estudios{
-    background-color: #006691;
-    border: black 3px solid;
-    color: white;
-    border-radius: 25px;
-    padding: 5px;
-    margin-bottom: 15px;
-    box-shadow: 15px 8px 16px black;
-}
-section{
-    color: white;
-    text-align: center;
-}
-.skills{
-    border: black 3px solid;
-    background-color: #006691;
-    color: white;
-    border-radius: 25px;
-    padding: 5px;
-    margin-bottom: 15px;
-    box-shadow: 15px 8px 16px black;
-    
-}
-
-.proyectos{
-    background-color: #006691;
-    border: black 3px solid;
-    color: white;
-    border-radius: 25px;
-    padding: 5px;
-    margin-bottom: 15px;
-    text-align: center;
-    box-shadow: 15px 8px 16px black;
-}
-
-
-
-.footer{
-    background-color:  #006691;
-    border: black 3px solid;
-    color: white;
-    border-radius: 25px;
-    padding: 5px;
-    margin-bottom: 15px;
-    box-shadow: 15px 8px 16px black;
-}
-
-/* Estilos para imagenes de skills*/
-
-img.html{
-    border-radius: 10%;
+.perfil{
     height: 100px;
-}
-
-img.css{
-    border-radius: 10%;
-    height: 100px;
-    width: 100px;
-}
-
-img.js{
-    border-radius: 10%;
-    height: 100px;
-}
-
-img.nodejs{
-    border-radius: 10%;
-    height: 100px;
-}
-
-img.express{
-    border-radius: 10%;
-    height: 100px;
-}
-
-img.mysql{
-    border-radius: 10%;
-    height: 100px;
-    width: 100px;
-}
-
-img.sequelize{
-    border-radius: 10%;
-    height: 100px;
-    width: 100px;
-}
-.estudio{
-    color: white;
-    text-align: center;
-}
-.skills{
-    display: flex;
-    justify-content: space-around;
-    word-break:break-all;
-}
-.skill{
-    color: white;
-    text-align: center;
-}
-
-.pro{
-    height: 150px;
-    width: 200px;
-    border-radius: 25px;
-    
-}
-
-footer{
-    text-align: center;
-}
-
-.icono{
-    text-decoration: none;
-    color: white;
-    margin-left: 50px;
-    
-}
-.icono img{
-
-    height: 80px;
-    border-radius: 25%;
-}
-
-.boton{
-    margin-top: 20px;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
+    border-radius: 60px;
     padding: 10px;
-    width: 150px;
-
-    
 }
-.boton a{
-    text-decoration: none;
-    color: black;
+p{
+    color: #000D13;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.boton:hover{
-    background-color: dodgerblue;
+a{
+    color: #000D13;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    opacity: 0.9;
+    display: flex; 
+}
+h3{
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-@media (max-width: 600px) {
-    .skills{
-        display: flex;
-    justify-content: space-around;
-    word-break:break-all;
-    }
+.lateral{
+    background: #3a4893;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 16%;
+}
+.extencion{
+    width:20%;
+    background: #3a4893;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    margin-top: 40%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
     
-    .header{
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.item-img{
+    height: 100px;
+}
+.Portafolio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.item {
     display: flex;
     align-items: center;
-    font-size: 10px;
-    flex-direction: column;
-    background-color:  #006691;
-    border: black 3px solid;
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    box-shadow: 15px 8px 16px black;
-    height: 250px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid red;
+    height: 200px;
 }
-  }
+.item a{
+    margin-left: 10px; 
+}
 
+.item-skills{
+ height: 70px;
+}
 
+.item a :hover{
+    height: 110px;
+    
+}
+.skills{
+    display: block;
+    text-align: center;
+    height: 200px;
+}
 
+.skills img{
+    height: 50px;
+    border-radius: 10%;
+}
 
+.skills img:hover{
+    
+    height: 60px;
+}
+.secciones a:hover{
+    color: #7ea1dc;
+    padding: 2px;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.form .input{
+    margin-top: 0.2%;
+    border-radius: 5px;
+    height: 20px;
+    width: 80%;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textarea{
+    margin-top: 0.2%;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer p{
+    color: white;
+}
+label{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
